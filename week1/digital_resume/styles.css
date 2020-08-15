@@ -1,0 +1,145 @@
+body {
+  background-image: url(background.jpg);
+  background-repeat: repeat;
+  width: 60%;
+  display: block;
+  margin: 10px auto;
+  margin-bottom: 0.5cm;
+  box-shadow: 0 0 0.5cm rgba(255, 255, 255, 0.5);
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    background-color:rgb(236, 236, 236);
+    align-items: center;
+    border:1px dashed #002A4D;
+    
+}
+
+#personal_image{
+    width:200px;
+    height:200px;
+    object-fit:cover;
+    border-radius:50%;
+    display:block;
+    margin: 0 auto;
+}
+
+.image{
+    flex: 20%;
+    margin:15px;
+
+}
+
+.name{
+    flex: 55%;
+    margin:15px;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    background-color:rgb(236, 236, 236);
+    border-left: 1px dashed #002A4D;
+    border-right: 1px dashed #002A4D;
+}
+
+aside{
+    flex: 20%;
+    margin:15px;
+    padding-right:20px;
+    border-right: 1px dashed #002A4D;
+}
+  
+
+section{
+    flex: 55%;
+    margin:15px;
+}
+
+
+.languages_list{
+
+    padding: 25px;
+}
+
+.bar {
+    width: 100%;
+    background-color: #ddd;
+    margin-bottom:15px;
+}
+  
+.language {
+    text-align: right;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    color: white;
+}
+
+.arabic {
+    width: 100%;
+    background-color: #002A4D;
+}
+
+.english {
+  width: 80%;
+  background-color: #002A4D;
+}
+
+.dutch {
+  width: 15%;
+  background-color: #002A4D;
+}
+
+.hobbies-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.hobbies-list > div {
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    background-color:rgb(236, 236, 236);
+    border:1px dashed #002A4D;
+    justify-content: center;
+    align-items: flex-end;
+    height:80px;
+}
+
+h1{
+    font-family: 'Montserrat', 'sans-serif';
+    letter-spacing: 5px;
+    margin: 0;
+}
+
+h2  {
+    border-bottom: 3px solid #9da4ac;
+    color: #002A4D;
+}
+
+h3 {
+    color: #002A4D;
+    margin: 0;
+}
+
+h4{
+    letter-spacing: 3px;
+}
+
+h5{
+    letter-spacing: 7px;
+}
+
+time, .site{
+    color: rgb(95, 95, 95);
+}
