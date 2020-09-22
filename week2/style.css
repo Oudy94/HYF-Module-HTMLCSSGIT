@@ -19,6 +19,7 @@
 body{
     background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(images/background.jpg);
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
 }
 
 ul {
@@ -30,14 +31,22 @@ ul {
 h1{
     text-align: center;
     letter-spacing: 5px;
-    margin-top: 20px;
-    font-size: 50px;
+    margin-top: 2rem;
+    font-size: 5rem;
 }
 
 h2{
     text-align: center;
-    margin-top: 30px;
-    font-size: 30px;
+    margin-top: 3rem;
+    font-size: 3rem;
+}
+
+h3{
+    font-size: 1.4rem;
+}
+
+p{
+    font-size: 1rem;
 }
 /*** Fonts ***/
 
@@ -100,15 +109,15 @@ h2{
     bottom: 10px;
     overflow: auto;
     max-height: 130px;
-    padding: 5px;
+    padding: 5.rem;
     z-index: 1;
 }
 
 #grid-floats h3{
     color: white;
     height: 30px;
-    padding-top: 15px;
-    padding-bottom: 10px;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
 
     position: relative;
     border-radius: var(--grid-item-border-width);
@@ -207,15 +216,15 @@ h2{
     
     overflow: auto;
     max-height: 250px;
-    margin: 5px 5px 15px 5px;
+    margin: 5.rem 5.rem 1.5rem 5.rem;
     z-index: 1;
 }
 
 #grid-flex h3{
     color: white;
     height: 30px;
-    padding-top: 15px;
-    padding-bottom: 10px;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
     --grid-item-border-width: 3px;
     position: relative;
     border-radius: var(--grid-item-border-width);
